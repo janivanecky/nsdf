@@ -13,6 +13,7 @@ Over the past few years, another promising option for representing SDFs of arbit
 Are these nsdfs usable outside of "lab"? The networks described in the papers are either too big (millions of parameters) to be represented purely in code, or require additional 3d textures as inputs (again millions of parameters). So, can we make them into copy-pastable distance functions which are usable in Shadertoy? Yes, yes we can:
 
 ![imgs/dragon_big_loop.gif](imgs/dragon_big_loop.gif)
+
 [See in action on Shadertoy](https://www.shadertoy.com/view/NlKXWw)
 
 This is a quite large nsdf of Stanford dragon running in Shadertoy, at ~25fps on 3080RTX in 640x360 resolution. Not perfect, but not bad at all.
